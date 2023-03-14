@@ -7,8 +7,8 @@ app = Flask(__name__)
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="AwGsql_2808",
-  database="db_nilai"
+  password="your_mysql_password",
+  database="db_nilai or your_db_name"
 )
 
 # fungsi untuk mendapatkan data mahasiswa dari database
